@@ -22,7 +22,7 @@ jobs:
       - name: Prepare public site
         run: |
           mkdir -p _site
-          cp home.html index.html people.html pi.html positions.html research.html teaching.html style.css research-accordion.js *.jpg _site/
+          cp home.html index.html people.html pi.html positions.html research.html teaching.html style.css research-accordion.js *.jpg research-overview.png _site/
           touch _site/.nojekyll
       - uses: actions/upload-pages-artifact@v4
         with:
