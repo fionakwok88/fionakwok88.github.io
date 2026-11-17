@@ -50,5 +50,9 @@ body{margin:0;width:100%;background:#fff}.wrap{width:100%;max-width:none;margin:
 .research-area .funding-list,.research-area .funding-list li,.research-area .publication-list,.research-area .publication-list li{font-family:Georgia,"Times New Roman",serif}
 .team-hero{min-height:clamp(180px,28vh,300px);background-image:linear-gradient(105deg,rgba(16,42,62,.12),rgba(16,42,62,.02)),url("team-background.jpg");background-size:cover;background-position:center 54%;background-repeat:no-repeat}.team-hero .hero-copy{display:none}@media(max-width:700px){.team-hero{min-height:170px;background-position:center 54%}}
 .team-hero{background-position:center 76%}@media(max-width:700px){.team-hero{background-position:center 76%}}
-.team-hero{background-position:center 94%}@media(max-width:700px){.team-hero{background-position:center 94%}}
+.team-hero{background-position:center 72%}@media(max-width:700px){.team-hero{background-position:center 72%}}
 .mission>p{text-align:justify;text-justify:inter-word}
+
+.teaching-hero{min-height:clamp(150px,24vh,250px);background-image:linear-gradient(105deg,rgba(16,42,62,.12),rgba(16,42,62,.02)),url("teaching-background.jpg" );background-size:cover;background-position:center 51%;background-repeat:no-repeat}.teaching-hero .hero-copy{display:none}@media(max-width:700px){.teaching-hero{min-height:140px;background-position:center 51%}}
+
+.position-hero{min-height:clamp(150px,24vh,250px);background-image:linear-gradient(105deg,rgba(16,42,62,.12),rgba(16,42,62,.02)),url("position-background.jpg" );background-size:cover;background-position:center 46%;background-repeat:no-repeat}@media(max-width:700px){.position-hero{min-height:140px;background-position:center 46%}}
