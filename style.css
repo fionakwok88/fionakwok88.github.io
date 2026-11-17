@@ -56,3 +56,19 @@ body{margin:0;width:100%;background:#fff}.wrap{width:100%;max-width:none;margin:
 .teaching-hero{min-height:clamp(150px,24vh,250px);background-image:linear-gradient(105deg,rgba(16,42,62,.12),rgba(16,42,62,.02)),url("teaching-background.jpg" );background-size:cover;background-position:center 51%;background-repeat:no-repeat}.teaching-hero .hero-copy{display:none}@media(max-width:700px){.teaching-hero{min-height:140px;background-position:center 51%}}
 
 .position-hero{min-height:clamp(150px,24vh,250px);background-image:linear-gradient(105deg,rgba(16,42,62,.12),rgba(16,42,62,.02)),url("position-background.jpg" );background-size:cover;background-position:center 46%;background-repeat:no-repeat}@media(max-width:700px){.position-hero{min-height:140px;background-position:center 46%}}
+/* Georgia body copy on Research Team and Positions pages */
+.team-page .team-meta,
+.team-page .team-topic,
+.team-page .team-card p,
+.positions-page p,
+.positions-page .list,
+.positions-page .list li{font-family:Georgia,"Times New Roman",serif}
+/* Darker text for all Georgia copy */
+.portrait{color:#365768}
+.profile-email{color:#40515d}
+.profile-email a,.profile-links a{color:#155a70}
+.research-area>p{color:#394f5c}
+.team-page .team-meta{color:#465b65}
+.team-page .team-topic{color:#205b4d}
+.team-page .team-card p{color:#394b56}
+.team-page .team-card p{font-size:17px}@media(max-width:620px){.team-page .team-card p{font-size:16px}}
