@@ -22,7 +22,8 @@ jobs:
       - name: Prepare public site
         run: |
           mkdir -p _site
-          cp home.html index.html people.html pi.html positions.html research.html teaching.html style.css research-accordion.js *.jpg research-overview.png *.png _site/
+          cp home.html index.html people.html pi.html positions.html research.html teaching.html style.css research-accordion.js _site/
+          find . -maxdepth 1 -type f \( -name '*.jpg' -o -name '*.png' \) -exec cp -t _site/ {} +
           touch _site/.nojekyll
       - uses: actions/upload-pages-artifact@v4
         with:
